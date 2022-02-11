@@ -1,0 +1,12 @@
+.homeB button{
+    font-size: 6vh;
+    font-weight: bold;
+    padding: 3vh;
+    width: 50vh;
+    margin-top: 15vh;
+    border-radius: 5px;
+    background-color: rgb(46, 128, 250);
+}
+.homeB button:hover{
+    background-color: rgb(71, 168, 248);
+}
