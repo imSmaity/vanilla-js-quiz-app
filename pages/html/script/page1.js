@@ -10,5 +10,10 @@ function firstPageSubmit(){
         
     }
     alert(result)
+    
     console.log("Qualify to next round: ",result>=7);
+    if(result>=7){
+        history.forward('/html_quiz/page2')
+    }
 }
+

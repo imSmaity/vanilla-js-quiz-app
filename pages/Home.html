@@ -6,29 +6,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="index.css">
         <title>Quiz</title>
     </head>
     <body>
-        <center class="row homeB">
+        <div class="row homeB" id="main_page">
             <div class="col-lg-4 col-md-6 col-12">
-                <a href="./html/html_quiz_start.html"><button type="button">HTML</button></a>
+                <a href="/html_quiz" onclick="route()">HTML</a>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <a href="./css/css_quiz_start.html"><button type="button">CSS</button></a>
+                <a href="/css_quiz" onclick="route()">CSS</a>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <a href="./js/javascript_quiz_start.html"><button type="button">JavaScript</button></a>
+                <a href="/javascript_quiz" onclick="route()">JavaScript</a>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <a href="./reactjs/reactjs_quiz_start.html"><button type="button">React JS</button></a>
+                <a href="/reactjs_quiz" onclick="route()">React JS</a>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <a href="./redux/redux_quiz_start.html"><button type="button">Redux</button></a>
+                <a href="/redux_quiz" onclick="route()">Redux</a>
             </div>
             <div class="col-lg-4 col-md-6 col-12">
-                <a href="./git/git_quiz_start.html"><button type="button">Git</button></a>    
+                <a href="/git_quiz" onclick="route()">Git</a>    
             </div>
-        </center>
+        </div>
     </body>
+    <script src="router/routes.js"></script>
 </html>

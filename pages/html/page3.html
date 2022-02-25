@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=" vice- nitial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>HTML quiz page3</title>
+    </head>
+    <body>
+        <!-- <div class="m-2">
+            <a href="/login"><button type="button">Login</button></a>
+            <a href="/signUp"><button type="button">Sign up</button></a>
+        </div> -->
+        <div class="row container">
+            <div class="col-12 mt-4 question">
+                1. The &lt;title&gt; element must be located in <br/>
+                <input type="radio" id="q1Ans" 1" name="q1"/>
+                <label>the &lt;head&gt; element</label><br/>
+                <input type="radio" 2" name="q1"/>
+                <label>the &lt;body&gt; element</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                2. HTML stands for</br>
+                <input type="radio" name="q2" >
+                <label>Hyper Text Modul Language</label><br/>
+                <input type="radio" id="q2Ans" name="q2" >
+                <label>Hyper Text Markup Language</label><br/>
+                <input type="radio" name="q2" >
+                <label>Hyper Test Markup Language</label><br/>
+                <input type="radio" name="q2" >
+                <label>Hyperlink Markup Language</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                3. Where we can use the &lt;style&gt; tag?<br/>
+                <input type="radio" name="q3" >
+                <label>In the &lt;head&gt; element</label><br/>
+                <input type="radio" name="q3" >
+                <label>In the &lt;body&gt; element</label><br/>
+                <input type="radio" name="q3" id="q3Ans" >
+                <label>In the &lt;head&gt; and &lt;body&gt; elements</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                4. Which tag is used to create a hyperlink?<br/>
+                <input type="radio" name="q4" id="q4Ans">
+                <label>&lt;a&gt;</label><br/>
+                <input type="radio" name="q4" >
+                <label>&lt;img&gt;</label><br/>
+                <input type="radio" name="q4" >
+                <label>&lt;link&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                5. How to make a text italic?<br/>
+                <input type="radio" name="q5" >
+                <label>&lt;em&gt; Some Text &lt;/em&gt;</label><br/>
+                <input type="radio" name="q5" >
+                <label>&lt;italic&gt; Some Text &lt;/italic&gt;</label><br/>
+                <input type="radio" name="q5" id="q5Ans">
+                <label>&lt;i&gt; Some Text &lt;/i&gt;</label><br/>
+                <input type="radio" name="q5" >
+                <label>&lt;strong&gt; Some Text &lt;/strong&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                6. Which of the following table tags is used to create a table row?<br/>
+                <input type="radio" name="q6" >
+                <label>&lt;th&gt;</label><br/>
+                <input type="radio" name="q6" >
+                <label>&lt;td&gt;</label><br/>
+                <input type="radio" name="q6" id="q6Ans">
+                <label>&lt;tr&gt;</label><br/>
+                <input type="radio" name="q6" >
+                <label>&lt;table&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                7. Which of the following optional table tags is used to add a short description above a table?<br/>
+                <input type="radio" name="q7" >
+                <label>&lt;description&gt;</label><br/>
+                <input type="radio" name="q7" id="q7Ans">
+                <label>&lt;caption&gt;</label><br/>
+                <input type="radio" name="q7" >
+                <label>&lt;title&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                8. Which is the correct HTML tag paragraph?<br/>
+                <input type="radio" name="q8" >
+                <label>&lt;paragraph&gt;</label><br/>
+                <input type="radio" name="q8" id="q8Ans">
+                <label>&lt;p&gt;</label><br/>
+                <input type="radio" name="q8" >
+                <label>&lt;para&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                9. Which of the following HTML tags is not valid?<br/>
+                <input type="radio" name="q9" >
+                <label>&lt;h1&gt;</label><br/>
+                <input type="radio" name="q9" id="q9Ans">
+                <label>&lt;h8&gt;</label><br/>
+                <input type="radio" name="q9" >
+                <label>&lt;h4&gt;</label><br/>
+                <input type="radio" name="q9" >
+                <label>&lt;h5&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                10. Which of the following answer options is not an HTML attribute?<br/>
+                <input type="radio" name="q10" >
+                <label>alt</label><br/>
+                <input type="radio" name="q10" >
+                <label>target</label><br/>
+                <input type="radio" name="q10" id="q10Ans">
+                <label>frontSize</label><br/>
+                <input type="radio" name="q10" >
+                <label>name</label><br/>
+            </div>
+            <div class="col-12">
+                <button type="button" onclick="firstPageSubmit('/html_quiz/page2')">Submit</button>
+            </div>
+        </div>
+        <!-- <script src="./script/page1.js" type="text/javascript"></script> -->
+    </body>
+</html>

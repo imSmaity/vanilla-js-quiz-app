@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=" vice- nitial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>HTML quiz page2/title>
+    </head>
+    <body>
+        <!-- <div class="m-2">
+            <a href="/login"><button type="button">Login</button></a>
+            <a href="/signUp"><button type="button">Sign up</button></a>
+        </div> -->
+        <div class="row container">
+            <div class="col-12 mt-4 question">
+                1. What is the font-size of the h1 heading tag?<br/>
+                <input type="radio" name="q1"/>
+                <label>3.5 em</label><br/>
+                <input type="radio" 2" name="q1"/>
+                <label>2.17 em</label>
+                <input type="radio" 2" id="q1Ans" name="q1"/>
+                <label>2 em</label>
+                <input type="radio" 2" name="q1"/>
+                <label>1.5 em</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                2. How many heading tags are there in HTML5?</br>
+                <input type="radio" name="q2" >
+                <label>2</label><br/>
+                <input type="radio"  name="q2" >
+                <label>4</label><br/>
+                <input type="radio" name="q2" >
+                <label>5</label><br/>
+                <input type="radio" id="q2Ans" name="q2" >
+                <label>6</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                3. How many attributes are there in HTML5?<br/>
+                <input type="radio" name="q3" id="q3Ans">
+                <label>2</label><br/>
+                <input type="radio" name="q3" >
+                <label>3</label><br/>
+                <input type="radio" name="q3" >
+                <label>4</label>
+                <input type="radio" name="q3" >
+                <label>5</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                4. Which of the following attributes is used to add link to any element?<br/>
+                <input type="radio" name="q4" >
+                <label>&lt;a&gt;</label><br/>
+                <input type="radio" name="q4" id="q4Ans">
+                <label>href</label><br/>
+                <input type="radio" name="q4" >
+                <label>link</label><br/>
+                <input type="radio" name="q4" >
+                <label>ref</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                5. What is the purpose of using div tags in HTML?<br/>
+                <input type="radio" name="q5" >
+                <label>For creating Different styles.</label><br/>
+                <input type="radio" name="q5" >
+                <label>For adding headings.</label><br/>
+                <input type="radio" name="q5" id="q5Ans">
+                <label>For creating different sections.</label><br/>
+                <input type="radio" name="q5" >
+                <label>For adding titles.</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                6. Which among the following is correct HTML code for making a checkbox?<br/>
+                <input type="radio" name="q6" >
+                <label>&lt;checkbox&gt;</label><br/>
+                <input type="radio" name="q6" id="q6Ans">
+                <label>&lt;input type="checkbox"&gt;</label><br/>
+                <input type="radio" name="q6">
+                <label>&lt;check&gt;</label><br/>
+                <input type="radio" name="q6" >
+                <label>&lt;input type="check"&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                7. Which tag is used for creating a drop-down selection list?<br/>
+                <input type="radio" name="q7" >
+                <label>&lt;select&gt;</label><br/>
+                <input type="radio" name="q7" id="q7Ans">
+                <label>&lt;option&gt;</label><br/>
+                <input type="radio" name="q7" >
+                <label>&lt;dropdown&gt;</label>
+                <input type="radio" name="q7" >
+                <label>&lt;list&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                8. Which tag is used to add an header in HTML5 table?<br/>
+                <input type="radio" name="q8" >
+                <label>&lt;theader&gt;</label><br/>
+                <input type="radio" name="q8">
+                <label>&lt;header&gt;</label><br/>
+                <input type="radio" name="q8" >
+                <label>&lt;h1&gt;</label>
+                <input type="radio" name="q8" id="q8Ans">
+                <label>&lt;th&gt;</label>
+            </div>
+            <div class="col-12 mt-4 question">
+                9. Where is the meta tag only found?<br/>
+                <input type="radio" name="q9" >
+                <label>The last page</label><br/>
+                <input type="radio" name="q9" id="q9Ans">
+                <label>The home page</label><br/>
+                <input type="radio" name="q9" >
+                <label>The second page</label><br/>
+            </div>
+            <div class="col-12 mt-4 question">
+                10. What is an element that does not have a closing tag called?<br/>
+                <input type="radio" name="q10" >
+                <label>Tag</label><br/>
+                <input type="radio" name="q10" id="q10Ans">
+                <label>Empty element</label><br/>
+                <input type="radio" name="q10">
+                <label>Closed element</label><br/>
+            </div>
+            <div class="col-12">
+                <button type="button" onclick="secondPageSubmit('/html_quiz/page3')">Submit</button>
+            </div>
+        </div>
+        <!-- <script src="./script/page1.js" type="text/javascript"></script> -->
+    </body>
+</html>

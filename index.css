@@ -1,0 +1,10 @@
+.homeB div{
+    margin-top: 10vh;
+    font-size: 10vh;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(75, 74, 74);
+}
